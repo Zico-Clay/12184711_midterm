@@ -1,0 +1,8 @@
+<launch>
+
+  <param name="speed" value="60" type="double"/>
+
+  <node name="speed_limit_node" pkg="midterm" type="speed_limit" />
+
+  <node name="speed_check_node" pkg="midterm" type="speed_check" />
+</launch>
